@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group.entrepreneurship_prototype.SearchForCarActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="140dp"
+        android:layout_height="87dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/car"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/audiTT"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:background="@drawable/back"
+        android:text="Audi TT,  2 seats,
+Offered by: Mattias
+Price per day: 500 Sek
+Fuel type: Diesel"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/honda"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:background="@drawable/back"
+        android:text="Honda,  5 seats,
+Offered by: Sara Andersson
+Price per day: 450 Sek
+Fuel type: 95 lead free"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/volvo"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:background="@drawable/back"
+        android:text="Volvo,  5 seats,
+Offered by: Lars Svensson
+Price per day: 300 Sek
+Fuel type: E85"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/audi"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:background="@drawable/back"
+        android:text="Audi,  2 seats,
+Offered by: Göran the speed demon
+Price per day: 600 Sek
+Fuel type: Diesel"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/toyota"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:background="@drawable/back"
+        android:text="Toyota,  5 seats,
+Offered by: Johan
+Price per day: 550 Sek
+Fuel type: Diesel"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/saab"
+        android:layout_width="255dp"
+        android:layout_height="76dp"
+        android:background="@drawable/back"
+        android:text="Saab,  5 seats,
+Offered by: Per Johansson
+Price per day: 500 Sek
+Fuel type: Diesel"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="137dp"
+        android:layout_height="88dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/car3"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="140dp"
+        android:layout_height="92dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/car2"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="137dp"
+        android:layout_height="89dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/car4"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="137dp"
+        android:layout_height="88dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/car5"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="139dp"
+        android:layout_height="92dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/car6"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <SearchView
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:queryHint="@android:search"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:padding="@android:10dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

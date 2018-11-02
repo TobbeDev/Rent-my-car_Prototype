@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Tobias Åkesson\Documents\GitHub\Rent-my-car_prototype\Entrepreneurship_Prototype.iml" filepath="C:\Users\Tobias Åkesson\Documents\GitHub\Rent-my-car_prototype\Entrepreneurship_Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rent-my-car_prototype.iml" filepath="$PROJECT_DIR$/Rent-my-car_prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Tobias Åkesson\Documents\GitHub\Rent-my-car_prototype\app\app.iml" filepath="C:\Users\Tobias Åkesson\Documents\GitHub\Rent-my-car_prototype\app\app.iml" />
     </modules>
   </component>
 </project>

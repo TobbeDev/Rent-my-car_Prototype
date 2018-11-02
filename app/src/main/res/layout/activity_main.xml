@@ -10,17 +10,19 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/login"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-14dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="281dp"
+        android:layout_width="316dp"
         android:layout_height="75dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="48dp"
+        android:textStyle="italic"
         android:text="Rent my car"
         android:textSize="50dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +61,10 @@
         android:layout_marginTop="336dp"
         android:text="Login"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/darker_gray"
+        android:background="@drawable/shape"
+        />
 
     <Button
         android:id="@+id/button2"
@@ -69,6 +74,8 @@
         android:layout_marginTop="16dp"
         android:text="Create account"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:background="@android:color/darker_gray"
+        android:background="@drawable/shape"/>
 
 </android.support.constraint.ConstraintLayout>
